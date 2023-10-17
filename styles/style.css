@@ -44,9 +44,8 @@
   position: relative;
   z-index: 1;
   max-width: 1440px;
-  max-height: 757px;
   margin: 0 auto;
-  padding: 165px 50px 62px;
+  padding: 165px 50px 50px;
   color: #fff;
   text-transform: uppercase;
   background: url(../images/cover.jpg) no-repeat center/cover;
@@ -64,6 +63,8 @@
   font-size: 100px;
   line-height: 100%;
   letter-spacing: 30px;
+  display: grid;
+  gap: 20px;
 }
 
 .aligned-text {
@@ -71,12 +72,10 @@
 }
 
 .aligned-text_left {
-  margin-bottom: 20px;
   line-height: 115%;
 }
 
 .aligned-text_center {
-  margin-bottom: 20px;
   text-align: center;
 }
 
