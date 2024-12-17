@@ -1,10 +1,7 @@
 
 
 # "Оно тебе надо — аукцион вещей, в которые никто не верил"
-<div style="display: flex; gap: 10px; background-color:rgb(46, 46, 46); padding: 10px; border-radius: 8px; font-family: 'Comic Sans MS', sans-serif; margin-top: 20px;">
-  <div style="background-color:rgb(235, 72, 43); color: white; padding: 5px 10px; border-radius: 4px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); transition: transform 0.3s ease; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);">
-    HTML
-  </div>
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
   <div style="background-color:rgb(57, 84, 235); color: white; padding: 5px 10px; border-radius: 4px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); transition: transform 0.3s ease; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);">
     CSS
   </div>
