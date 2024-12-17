@@ -1,0 +1,33 @@
+.lots {
+  padding: 180px 50px 180px 50px;
+  font-size: 20px;
+}
+
+.lots__heading {
+  margin-left: 42px;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 27px 0 30px 0;
+  list-style-type: none;
+}
+
+.lots__card-list-item {
+  flex-grow: 1;
+  width: 430px;
+  min-height: 450px;
+}
+
+.lots__look-more-link {
+  margin-left: 42px;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+}

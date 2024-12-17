@@ -1,0 +1,42 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 6px;
+    column-gap: 20px;
+    padding: 0 46px 180px 44px;
+  }
+  
+  .about__logo {
+    display: flex;
+    grid-row: 1/1;
+    justify-self: center;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+  
+  .about__logo-image {
+    height: 114px;
+  }
+  
+  .about__title {
+    grid-row: 1/1;
+    align-self: center;
+    margin-top: 6px;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  
+  .about__text {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    gap: 26px;
+    font-size: 20px;
+  }
+  

@@ -1,0 +1,30 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 92px 48px 92px 50px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 34px;
+  list-style: circle;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__logo {
+  display: block;
+  justify-self: center;
+  width: 136px;
+}
+
+.header__address {
+  justify-self: end;
+}
